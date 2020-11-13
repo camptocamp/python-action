@@ -4,8 +4,9 @@ ENV \
   DEBIAN_FRONTEND=noninteractive \
   SSL_CERT_FILE=/etc/ssl/certs/ca-certificates.crt \
   PYTHONIOENCODING=UTF-8 \
-  LANG=en_US.UTF-8 \
-  LANGUAGE=en_US.UTF-8
+  LANG=C.UTF-8 \
+  LANGUAGE=C.UTF-8 \
+  LC_ALL=C.UTF-8
 
 RUN \
   apt-get update && \
