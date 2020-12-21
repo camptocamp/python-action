@@ -10,6 +10,6 @@ version:
     - from: master
       to: latest
 
-  publish:
-    pypi:
-      packages: []
+publish:
+  pypi:
+    packages: []
