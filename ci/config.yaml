@@ -2,8 +2,8 @@ checks:
   required_workflows:
     clean.yaml: False
     audit.yaml: False
-    dependabot-auto-merge.yaml: False
     backport.yaml: False
+    codeql.yaml: False
 
 version:
   branch_to_version_re:
