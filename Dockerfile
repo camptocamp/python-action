@@ -10,7 +10,10 @@ ENV \
 
 RUN \
   apt-get update && \
-  apt-get install --assume-yes --no-install-recommends git python3 python3-requests  && \
+  apt-get install --assume-yes --no-install-recommends software-properties-common dirmngr gpg-agent && \
+  apt-key adv --keyserver keyserver.ubuntu.com --recv-key C99B11DEB97541F0 && \
+  apt-add-repository https://cli.github.com/packages && \
+  apt-get install --assume-yes --no-install-recommends python3 python3-requests gh && \
   apt-get clean && \
   rm --recursive --force /var/lib/apt/lists/*
 
