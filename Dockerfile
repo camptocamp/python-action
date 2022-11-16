@@ -2,12 +2,7 @@ FROM ubuntu:22.04
 LABEL maintainer Camptocamp "info@camptocamp.com"
 SHELL ["/bin/bash", "-o", "pipefail", "-cux"]
 
-ENV \
-    SSL_CERT_FILE=/etc/ssl/certs/ca-certificates.crt \
-    PYTHONIOENCODING=UTF-8 \
-    LANG=C.UTF-8 \
-    LANGUAGE=C.UTF-8 \
-    LC_ALL=C.UTF-8
+ENV SSL_CERT_FILE=/etc/ssl/certs/ca-certificates.crt
 
 RUN --mount=type=cache,target=/var/cache,sharing=locked \
     --mount=type=cache,target=/root/.cache \
