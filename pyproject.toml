@@ -8,3 +8,9 @@ include_trailing_comma = true
 force_grid_wrap = false
 use_parentheses = true
 line_length = 110
+
+[tool.poetry]
+name = "python-action"
+version = "0.0.0"
+description = "Docker base image for GitHub Action that needs Python"
+authors = ["Camptocamp <info@camptocamp.com>"]
