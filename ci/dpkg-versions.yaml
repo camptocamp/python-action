@@ -121,7 +121,7 @@ camptocamp/python-action:latest:
   ubuntu_24_04/python3-chardet: 5.2.0+dfsg-1
   ubuntu_24_04/python3-idna: 3.6-2ubuntu0.1
   ubuntu_24_04/python3-minimal: 3.12.3-0ubuntu2
-  ubuntu_24_04/python3-pkg-resources: 68.1.2-2ubuntu1
+  ubuntu_24_04/python3-pkg-resources: 68.1.2-2ubuntu1.1
   ubuntu_24_04/python3-requests: 2.31.0+dfsg-1ubuntu1
   ubuntu_24_04/python3-urllib3: 2.0.7-1
   ubuntu_24_04/python3.12: 3.12.3-1ubuntu0.1
