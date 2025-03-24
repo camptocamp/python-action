@@ -1,4 +1,4 @@
-FROM ubuntu:24.10
+FROM ubuntu:24.04
 LABEL maintainer Camptocamp "info@camptocamp.com"
 SHELL ["/bin/bash", "-o", "pipefail", "-cux"]
 
