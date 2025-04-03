@@ -1,5 +1,5 @@
 FROM ubuntu:24.04
-LABEL maintainer Camptocamp "info@camptocamp.com"
+LABEL org.opencontainers.image.authors="Camptocamp <info@camptocamp.com>"
 SHELL ["/bin/bash", "-o", "pipefail", "-cux"]
 
 ENV SSL_CERT_FILE=/etc/ssl/certs/ca-certificates.crt
