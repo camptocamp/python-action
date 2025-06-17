@@ -63,3 +63,11 @@ repos:
     rev: 40.36.8
     hooks:
       - id: renovate-config-validator
+  - repo: https://github.com/astral-sh/ruff-pre-commit
+    rev: v0.11.8
+    hooks:
+      - id: ruff-format
+  - repo: https://github.com/sbrunner/python-versions-hook
+    rev: 1.0.0
+    hooks:
+      - id: python-versions
