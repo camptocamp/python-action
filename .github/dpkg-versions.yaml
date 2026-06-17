@@ -4,7 +4,7 @@ camptocamp/python-action:latest:
   ubuntu_24_04/base-passwd: 3.6.3build1
   ubuntu_24_04/bash: 5.2.21-2ubuntu4
   ubuntu_24_04/bsdutils: 1:2.39.3-9ubuntu6.5
-  ubuntu_24_04/ca-certificates: '20240203'
+  ubuntu_24_04/ca-certificates: 20260601~24.04.1
   ubuntu_24_04/coreutils: 9.4-3ubuntu6
   ubuntu_24_04/dash: 0.5.12-6ubuntu5
   ubuntu_24_04/debconf: 1.5.86ubuntu1
