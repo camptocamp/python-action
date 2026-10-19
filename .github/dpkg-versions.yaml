@@ -16,8 +16,8 @@ camptocamp/python-action:latest:
   ubuntu_26_04/findutils: 4.10.0-3build2
   ubuntu_26_04/gcc-16-base: 16-20260322-1ubuntu1
   ubuntu_26_04/gh: 2.99.0
-  ubuntu_26_04/git: 1:2.53.0-1ubuntu1
-  ubuntu_26_04/git-man: 1:2.53.0-1ubuntu1
+  ubuntu_26_04/git: 1:2.53.0-1ubuntu1.1
+  ubuntu_26_04/git-man: 1:2.53.0-1ubuntu1.1
   ubuntu_26_04/gnu-coreutils: 9.7-3ubuntu2.1
   ubuntu_26_04/gpgv: 2.4.8-4ubuntu3.1
   ubuntu_26_04/grep: 3.12-1
