@@ -3,7 +3,7 @@ camptocamp/python-action:latest:
   ubuntu_26_04/base-passwd: 3.6.8
   ubuntu_26_04/bash: 5.3-2ubuntu1
   ubuntu_26_04/bsdutils: 1:2.41.3-3ubuntu2.2
-  ubuntu_26_04/ca-certificates: 20260601~26.04.1
+  ubuntu_26_04/ca-certificates: 20260816ubuntu0.26.04.1
   ubuntu_26_04/coreutils: 9.5-1ubuntu2+0.0.0~ubuntu25
   ubuntu_26_04/coreutils-from-uutils: 0.0.0~ubuntu25
   ubuntu_26_04/curl: 8.18.0-1ubuntu2.8
@@ -64,7 +64,7 @@ camptocamp/python-action:latest:
   ubuntu_26_04/libldap-common: 2.6.10+dfsg-1ubuntu5
   ubuntu_26_04/libldap2: 2.6.10+dfsg-1ubuntu5
   ubuntu_26_04/liblz4-1: 1.10.0-8
-  ubuntu_26_04/liblzma5: 5.8.3-1
+  ubuntu_26_04/liblzma5: 5.8.3-1ubuntu0.1
   ubuntu_26_04/libmd0: 1.1.0-2build4
   ubuntu_26_04/libmount1: 2.41.3-3ubuntu2.2
   ubuntu_26_04/libncursesw6: 6.6+20251231-1
@@ -136,6 +136,6 @@ camptocamp/python-action:latest:
   ubuntu_26_04/sensible-utils: 0.0.26build1
   ubuntu_26_04/sysvinit-utils: 3.15-5ubuntu1
   ubuntu_26_04/tar: 1.35+dfsg-4ubuntu0.4
-  ubuntu_26_04/tzdata: 2026c-0ubuntu0.26.04.1
+  ubuntu_26_04/tzdata: 2026e-0ubuntu0.26.04.1
   ubuntu_26_04/ubuntu-keyring: 2023.11.28.1build1
   ubuntu_26_04/util-linux: 2.41.3-3ubuntu2.2
